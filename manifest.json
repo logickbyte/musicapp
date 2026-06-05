@@ -1,9 +1,26 @@
 {
-  "name": "BlendWave",
+  "name": "BlendWave Music Player",
   "short_name": "BlendWave",
-  "start_url": "/blendwave.html",
+  "description": "Offline music player with artist and album blending",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#0a0a0f",
   "theme_color": "#c8f560",
-  "icons": [{"src": "icon.png", "sizes": "512x512", "type": "image/png"}]
+  "lang": "en",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/0a0a0f/c8f560?text=BW",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/0a0a0f/c8f560?text=BW",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
